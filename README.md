@@ -1,7 +1,6 @@
 ## Corsa - Exposição de Arte
 
-This app was created using https://getmocha.com.
-Need help or want to join the community? Join our [Discord](https://discord.gg/shDEGBSe2d).
+Uma celebração da forma, elegância e design automotivo.
 
 To run the devserver:
 ```
