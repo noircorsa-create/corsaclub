@@ -1,7 +1,7 @@
 /// <reference types="vite/client" />
 
-declare module '@cloudflare/workers-types' {
-  interface Env {}
+interface Env {
+  // Add your Cloudflare bindings here
 }
 
 declare const self: ServiceWorkerGlobalScope;
