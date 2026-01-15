@@ -5,6 +5,7 @@ import ImageModal from "@/react-app/components/ImageModal";
 import Slideshow from "@/react-app/components/Slideshow";
 import VideoSection from "@/react-app/components/VideoSection";
 import Viewer360 from "@/react-app/components/Viewer360";
+import Endorsement from "@/react-app/components/Endorsement";
 
 export interface GalleryImage {
   id: number;
@@ -240,6 +241,7 @@ export default function HomePage() {
       <div className={`transition-opacity duration-1000 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}>
         <GalleryHero />
         <Slideshow images={galleryImages} />
+        <Endorsement />
         <GalleryGrid images={galleryImages} onImageClick={setSelectedImage} />
         <VideoSection />
         <Viewer360 />
